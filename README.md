@@ -4,9 +4,10 @@
 [![Django Version](https://img.shields.io/badge/django-2.1-brightgreen.svg)](https://djangoproject.com)
 
 -----------------------------------------------------------------------------------------------------------------
-
-Users can upload any file, It will be stored into database. 
-Users can upload any pdf file, After that they can view it with its cover picture and also can delete it from database.
+**Functionality:**
+* Upload files (.jpg/.pdf) 
+* View it with cover picture.
+* Delete it from database.
 
 http://somawatvinay.pythonanywhere.com/
 
@@ -20,10 +21,6 @@ http://somawatvinay.pythonanywhere.com/
 6. Finally, run the development server `python manage.py runserver`
 
 The project will be available at **127.0.0.1:8000**.
-
-
-I also published an article on Distribution of Files among Users with Quick Code publication on Medium.com 
-https://medium.com/quick-code/django-distributing-files-among-users-efa729598ba4
 
 
 **To contribute to the project:**
@@ -42,4 +39,7 @@ Follow the given link to make a successful and valid PR: https://help.github.com
 
 For any doubts related to the issues, i.e., to understand the issue better etc, comment down your queries on the respective issue.
 
+
+I also published an article on Distribution of Files among Users with Quick Code publication on Medium.com 
+https://medium.com/quick-code/django-distributing-files-among-users-efa729598ba4
 
