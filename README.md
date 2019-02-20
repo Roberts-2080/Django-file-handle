@@ -10,7 +10,7 @@ Users can upload any pdf file, After that they can view it with its cover pictur
 
 http://somawatvinay.pythonanywhere.com/
 
-**To setup the project on your local machine:
+**To setup the project on your local machine:**
 
 1. Click on `Fork`.
 2. Go to your fork and `clone` the project to your local machine.
@@ -26,17 +26,17 @@ I also published an article on Distribution of Files among Users with Quick Code
 https://medium.com/quick-code/django-distributing-files-among-users-efa729598ba4
 
 
-**To contribute to the project:
+**To contribute to the project:**
 
 1. Choose any open issue from [here](https://github.com/vinaysomawat/django-file-handle/issues). 
 2. Comment on the issue: `Can I work on this?` and get assigned.
 3. Make changes to your fork and send a PR.
 
-**To create a PR:
+**To create a PR:**
 
 Follow the given link to make a successful and valid PR: https://help.github.com/articles/creating-a-pull-request/
 
-**To send a PR, follow these rules carefully,**otherwise your PR will be closed**:
+**To send a PR, follow these rules carefully,**otherwise your PR will be closed**:**
 
 1. Make PR title in this format: `Fixes #IssueNo : Name of Issue`
 
