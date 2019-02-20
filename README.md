@@ -5,6 +5,11 @@
 
 -----------------------------------------------------------------------------------------------------------------
 
+Users can upload any file, It will be stored into database. 
+Users can upload any pdf file, After that they can view it with its cover picture and also can delete it from database.
+
+http://somawatvinay.pythonanywhere.com/
+
 To setup the project on your local machine:
 
 1. Click on `Fork`.
@@ -16,7 +21,6 @@ To setup the project on your local machine:
 
 The project will be available at **127.0.0.1:8000**.
 
-The site is live at **http://somawatvinay.pythonanywhere.com/**
 
 I also published an article on Distribution of Files among Users with Quick Code publication on Medium.com 
 https://medium.com/quick-code/django-distributing-files-among-users-efa729598ba4
@@ -37,4 +41,5 @@ To send a PR, follow these rules carefully,**otherwise your PR will be closed**:
 1. Make PR title in this format: `Fixes #IssueNo : Name of Issue`
 
 For any doubts related to the issues, i.e., to understand the issue better etc, comment down your queries on the respective issue.
+
 
