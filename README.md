@@ -5,7 +5,7 @@
 
 -----------------------------------------------------------------------------------------------------------------
 **Functionality:**
-* Login/Sign up.
+* Login/Sign up.(Without login nothing will work.)
 * Upload files (.jpg/.pdf) 
 * View it with cover picture.
 * Delete it from database.
