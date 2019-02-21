@@ -140,12 +140,5 @@ MEDIA_URL = '/media/'
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 
-#sendgrid service message service
-EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'apikey'
-EMAIL_HOST_PASSWORD = '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'
-EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = 'Team Somawat<noreply@example.com>'
 
 EMAIL_FILE_PATH = os.path.join(BASE_DIR, "sent_emails")
