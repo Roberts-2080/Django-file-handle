@@ -1,7 +1,9 @@
 {% extends 'base.html' %}
 
 {% block content %}
-
+{% if user.is_authenticated %}
+  Hi {{ user.username }}!
+  <p><a href="{% url 'logout' %}">logout</a></p>
   {% block content_header %}
     <h2>Books</h2>
     <p>
@@ -46,4 +48,9 @@
       {% endfor %}
     </tbody>
   </table>
+{% else %}
+  <p>You are not logged in. <a href="{% url 'login' %}">Login</a> here.</p>
+  <p>New User? <a href="{% url 'signup' %}">Sign Up</a> here.</p>
+  {% endif %}
+  
 {% endblock %}

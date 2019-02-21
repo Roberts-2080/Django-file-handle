@@ -1,7 +1,10 @@
+from django.contrib.auth import login, authenticate
+from django.contrib.auth.forms import UserCreationForm
 from django.shortcuts import render, redirect
 from django.views.generic import TemplateView, ListView, CreateView
 from django.core.files.storage import FileSystemStorage
 from django.urls import reverse_lazy
+from django.views import generic
 
 from .forms import BookForm
 from .models import Book
@@ -47,6 +50,10 @@ def delete_book(request, pk):
         book.delete()
     return redirect('book_list')
 
+class SignUp(generic.CreateView):
+    form_class = UserCreationForm
+    success_url = reverse_lazy('login')
+    template_name = 'signup.html'
 
 class BookListView(ListView):
     model = Book
@@ -59,3 +66,5 @@ class UploadBookView(CreateView):
     form_class = BookForm
     success_url = reverse_lazy('class_book_list')
     template_name = 'upload_book.html'
+
+
