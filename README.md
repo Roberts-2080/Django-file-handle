@@ -5,10 +5,12 @@
 
 -----------------------------------------------------------------------------------------------------------------
 **Functionality:**
-* Login/Sign up.(Without login nothing will work.)
-* Upload files (.jpg/.pdf) 
-* View it with cover picture.
-* Delete it from database.
+* User has to login first as well new users have to signup. (Without login nothing will work)
+* User can upload any .pdf file including its cover picture, Title, author name.
+* Uploaded things will be saved in the database.
+* Now, Uploaded books will be available for other users.
+* Users can delete books as well.
+* Logout successfully. Uploaded data would be safe in application.
 
 http://somawatvinay.pythonanywhere.com/
 
