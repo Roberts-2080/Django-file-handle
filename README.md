@@ -3,6 +3,7 @@
 [![Python Version](https://img.shields.io/badge/python-3.7-brightgreen.svg)](https://python.org)
 [![Django Version](https://img.shields.io/badge/django-2.1-brightgreen.svg)](https://djangoproject.com)
 
+![Image](https://github.com/vinaysomawat/Django-file-handle/blob/master/fileupload.png)
 -----------------------------------------------------------------------------------------------------------------
 **Functionality:**
 * User has to login first as well new users have to signup. (Without login nothing will work)
