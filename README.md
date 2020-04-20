@@ -21,8 +21,8 @@ http://somawatvinay.pythonanywhere.com/
 2. Go to your fork and `clone` the project to your local machine.
 3. `git clone https://github.com/vinaysomawat/django-file-handle.git`
 4. Install the requirements `pip install -r requirements.txt`
-5. Apply the migrations `python manage.py migrate`
-6. Finally, run the development server `python manage.py runserver`
+5. Apply the migrations `python3 manage.py migrate`
+6. Finally, run the development server `python3 manage.py runserver`
 
 The project will be available at **127.0.0.1:8000**.
 
